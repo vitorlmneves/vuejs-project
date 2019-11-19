@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+body, html {
+  background: $white;
+  font-family: $font-family;
+  scroll-behavior: smooth;
+}
+
+#app {
+  color: $black;
+  font-family: $font-family;
+  text-align: left;
+  background-color: $white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.container-fluid {
+  background-color: $white;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0;
+  transition: padding-left 0.3s ease-in-out;
+  width: 100%;
+}
+
+main {
+  min-height: calc(100vh - 350px);
+}
+
+.fc-day-grid-event .fc-content {
+  cursor: pointer;
+}
+
+#nprogress .bar {
+  background: $blue;
+  height: 8px;
+}
+
+#nprogress .spinner {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: absolute;
+}
+
+#nprogress .spinner-icon {
+  width: 50px;
+  height: 50px;
+  border-top-color: $blue;
+  border-left-color: $blue;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.form-control {
+  height: calc(1.8em + .75rem + 2px);
+}
+
+.swal2-popup {
+  font-size: .675rem !important;
+}

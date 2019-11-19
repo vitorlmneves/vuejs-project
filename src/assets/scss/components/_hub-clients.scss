@@ -1,0 +1,16 @@
+.hub-clients {
+  align-items: center;
+
+  &__logo {
+    padding: 15px;
+  }
+
+  &__img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 120px;
+  }
+
+  &__name {
+  }
+}

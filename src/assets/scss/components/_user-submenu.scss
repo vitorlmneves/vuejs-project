@@ -1,0 +1,61 @@
+.user-submenu {
+    background-color: $white;
+    box-shadow: 0 4px 15px 1px rgba(0, 0, 0, .1);
+    color: $black;
+    display: none;
+    font-size: 1rem;
+    list-style: none;
+    margin: .125rem 0 0;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    text-align: center;
+    top: 95%;
+    width: 255px;
+    z-index: 9999;
+
+  &__item {
+    text-decoration: none;
+  }
+
+  &__img {
+    margin-top: 20px;
+    max-width: 50%;
+  }
+
+  &__role {
+    color: $dark-gray;
+    margin: .5rem auto;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  &__left {
+    float: left;
+  }
+
+  &__right {
+    float: right;
+  }
+
+  &__left,
+  &__right {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+
+  &__button {
+    background-color: $light-gray-bg;
+    border: 1px solid $light-gray;
+    color: $black;
+    font-size: .875rem;
+    padding: .5rem 1rem;
+    text-decoration: none;
+
+    &:hover {
+      color: $blue;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}

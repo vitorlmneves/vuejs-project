@@ -1,0 +1,32 @@
+.menu-user {
+  padding: 10px;
+  text-align: right;
+
+  &__item {
+    display: inline-block;
+    position: relative;
+
+    &:hover {
+
+      & .user-submenu {
+        display: block;
+      }
+    }
+  }
+
+  &__dropdown-toggle {
+    text-decoration: none;
+  }
+
+  &__name {
+    color: $black;
+    margin-right: 10px;
+  }
+
+  &__img {
+    border-radius: 50%;
+    border: 5px solid $blue;
+    vertical-align: middle;
+    max-width: 40px;
+  }
+}

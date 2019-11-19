@@ -1,0 +1,118 @@
+.player-control {
+  
+  &__wrapper {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  &__left {
+    display: inline-flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  &__middle {
+    display: inline-flex;
+    flex-grow: 2;
+    justify-content: center;
+  }
+
+  &__right {
+    display: inline-flex;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  &__icons {
+    background: transparent;
+    border: 0;
+    color: $blue;
+    cursor: pointer;
+    fill: currentColor;
+    padding: 0 5px;
+
+    &:focus {
+      outline: 0;
+    }
+
+    & .icon {
+      color: $blue;
+      display: inline-block;
+      font-family: "Font Awesome 5 Free";
+      font-size: 1rem;
+      font-style: normal;
+      font-variant: normal;
+      line-height: 1;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+
+      &__play {
+        font-size: 1.8rem;
+
+        &:before {
+          content: "\f144";
+        }
+      }
+
+      &__pause {
+
+        &:before {
+          content: "\f28b";
+        }
+      }
+
+      &__stop {
+
+        &:before {
+          content: "\f28d"
+        }
+      }
+
+      &__skip-previous {
+
+        &:before {
+          content: "\f048"
+        }
+      }
+
+      &__skip-next {
+
+        &:before {
+          content: "\f051"
+        }
+      }
+
+      &__repeat-loop {
+
+        &:before {
+          content: "\f051"
+        }
+      }
+
+      &__sound-on {
+        font-weight: 900;
+
+        &:before {
+          content: "\f028";
+        }
+      }
+
+      &__sound-off {
+        font-weight: 900;
+
+        &:before {
+          content: "\f6a9";
+        }
+      }
+    }
+
+  }
+
+  &__progress {
+
+    &-bar {
+      cursor: pointer;
+      height: 5px;
+    }
+  }
+}

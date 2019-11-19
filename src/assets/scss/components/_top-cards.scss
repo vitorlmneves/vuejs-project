@@ -1,0 +1,90 @@
+.top-cards {
+  border: 0;
+  display: inline-block;
+  padding-left: .3rem;
+  padding-right: 0.3rem;
+
+  &__item {
+    background: $blue;
+    border: 0;
+    border-radius: $default-border-radius;
+    color: $white;
+    cursor: pointer;
+    height: 127px;
+    padding: 10px 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    flex: 1 1 0;
+    & + & {
+      margin-left: 2rem;
+    }
+  }
+
+  &__container {
+    box-shadow: $default-box-shadow;
+    height: 105px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    &--blog {
+      background-image: url(../images/background-blog.png);
+      background-size: cover;
+    }
+
+    &--events {
+      background-image: url(../images/background-events.png);
+      background-size: cover;
+    }
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    font-weight: $font-weight-thin;
+    height: 75%;
+    transform: translateY(50%);
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  &__details {
+    bottom: 15px;
+    display: inline;
+    left: 10px;
+    margin-bottom: 0;
+    position: absolute;
+  }
+
+  &__arrow {
+    bottom: 15px;
+    position: absolute;
+    right: 10px;
+  }
+
+  &__calendar {
+    background: url(../images/calendar.png) no-repeat center center;
+    background-size: 60px;
+    height: 60px;
+  }
+
+  &__days {
+    color: #000;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0;
+    padding-top: 25px;
+  }
+
+  &__date {
+    bottom: -21px;
+    font-size: 1rem;
+    font-weight: $font-weight-normal;
+    position: absolute;
+    width: 100%;
+  }
+}

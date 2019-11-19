@@ -1,0 +1,23 @@
+{
+  "login": {
+    "email": {
+      "title": "Email"
+    },
+    "error": "Email ou Password incorrectos!",
+    "password": {
+      "title": "Password"
+    },
+    "submit": "Login"
+  },
+  "mainMenu": {
+    "team": "Team",
+    "technologies": "Technologies",
+    "interests": "Interests",
+    "events": "Events",
+    "news": "News",
+    "blog": "Blog",
+    "products": "Products",
+    "apps": "Apps",
+    "configurations": "Configurations"
+  }
+}

@@ -1,0 +1,77 @@
+.hub-header {
+  align-items: center;
+
+  &__logo {
+    max-width: 180px;
+  }
+
+  &__title {
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  &__link {
+    display: block;
+    text-align: right;
+  }
+
+  &__owner {
+    text-align: right;
+    margin-right: 10px;
+    max-width: 150px;
+  }
+}
+
+/* .header__products{
+    text-align: center;
+    margin-left: 11px;
+    align-items: center;
+}
+
+.products{
+  margin-right: 6px;
+}
+
+.ownerClass{
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.hubProductsLogo{
+  text-align: left;
+}
+
+.hubProducts{
+
+    &__img{
+
+      &__logo{
+        max-width: 30%;
+      }
+
+      &__owner{
+        width: 27%;
+      }
+    }
+
+    &__status{
+      display: inline-block;
+      text-align: right;
+      margin-right: 25px;
+
+      &__title{
+        font-family: Roboto-Medium;
+        font-size: 25px;
+        line-height: 1.333333;
+        color: #0098ce;
+      }
+
+      &__input{
+        font-size: 28px;
+        color: #888;
+      }
+    }
+}
+
+ */

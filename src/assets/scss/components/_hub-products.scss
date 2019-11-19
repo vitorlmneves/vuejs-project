@@ -1,0 +1,15 @@
+.hub {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  &__products {
+    padding: 30px;
+  }
+
+  &__img {
+    max-height: 180px;
+    max-width: 100%;
+  }
+}

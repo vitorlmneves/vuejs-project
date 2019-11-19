@@ -1,0 +1,66 @@
+.sidenav {
+  background-color: $black;
+  min-height: 100%;
+  padding-bottom: 10px;
+  position: fixed;
+  text-align: left;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  width: 230px;
+  z-index: 2;
+
+   &.sidenav--collapsed {
+     width: 50px;
+
+     & .sidenav__text {
+       display: none;
+     }
+   }
+
+  &__box {
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+
+    &:hover {
+      background-color: $dark-gray;
+    }
+  }
+
+  &__logo {
+    max-height: 36px;
+  }
+
+  &__title {
+    background-color: $dark-blue;
+    height: 60px;
+    padding: 10px 10px 5px;
+    text-align: center;
+  }
+
+  &__icon {
+    padding-right: 15px;
+    text-align: center;
+    width: 30px;
+  }
+
+  &__link {
+    color: $sidenav-link;
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+
+    &:hover {
+      color: $white; 
+    }
+  }
+
+  &__text {
+    font-size: .8rem;
+  }
+}

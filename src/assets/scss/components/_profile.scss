@@ -1,0 +1,185 @@
+.profile-card {
+  border: 0;
+  justify-content: center;
+
+  &__edit {
+    margin-top: 30px;
+  }
+
+  &__inner {
+    background: $white;
+    border-radius: $default-border-radius;
+    box-shadow: $default-box-shadow;
+    padding: 25px;
+    position: relative;
+  }
+
+  &__info {
+    bottom: 15px;
+    color: $black;
+    padding-top: 15px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  &__name {
+    font-size: 1.3rem;
+    font-weight: $font-weight-normal;
+  }
+
+  &__role {
+    color: $light-gray;
+    display: block;
+    font-weight: $font-weight-thin;
+    margin-top: 15px;
+  }
+
+  &__img {
+    border-radius: 50%;
+    display: block;
+    height: 80px;
+    margin: 25px auto;
+    width: 80px;
+    object-fit: cover;
+  }
+
+  &__upload {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+    & + label {
+      background-color: $dark-blue;
+      color: $white;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      max-width: 60%;
+      overflow: hidden;
+      padding: 0.625rem 1.25rem;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      &:hover {
+        background-color: $blue;
+      }
+
+      & svg {
+        height: 1em;
+        fill: currentColor;
+        margin-top: -0.25em;
+        margin-right: 0.25em;
+        vertical-align: middle;
+        width: 1em;
+      }
+
+      & * {
+      	pointer-events: none;
+      }
+    }
+
+    &:focus + label,
+    &.has-focus + label {
+      background-color: $blue;
+      outline: 1px dotted $black;
+      outline: -webkit-focus-ring-color auto 5px;
+    }
+  }
+
+  &__title {
+    font-size: 1.2rem;
+  }
+
+  &__topic {
+    font-family: $font-family;
+    font-size: 1rem;
+    margin: 30px 0 10px;
+
+    &::before {
+      display: inline-block;
+      margin-right: 5px;
+      text-align: center;
+      width: 25px;
+    }
+
+    &--email {
+
+      &:before {
+        content: "\f0e0";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: $font-weight-bold;
+      }
+    }
+
+    &--phone {
+
+      &:before {
+        content: "\f095";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: $font-weight-bold;
+      }
+    }
+
+    &--address {
+
+      &:before {
+        content: "\f041";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: $font-weight-bold;
+      }
+    }
+
+    &--skills {
+
+      &:before {
+        content: "\f109";
+        font-family: 'Font Awesome 5 Free';
+      }
+    }
+
+    &--interests {
+
+      &::before {
+        content: "\f1e3";
+        font-family: 'Font Awesome 5 Free';
+      }
+    }
+
+    &--social {
+
+      &::before {
+        content: "\f0ac";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+
+  &__badges {
+    background: $blue;
+    border-radius: $default-border-radius;
+    color: $white;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 4px 8px;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    & i {
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.pagination {
+
+  & .page-item {
+
+    & .page-link {
+      color: $blue;
+    }
+  }
+
+  & .page-item.active {
+
+    & .page-link {
+      background-color: $blue;
+      border-color: $blue;
+      color: $white;
+    }
+  }
+}

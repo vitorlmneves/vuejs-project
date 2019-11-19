@@ -1,0 +1,38 @@
+.vertical-menu {
+
+  & ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  & li {
+    border-top: 1px solid #e6e6e6;
+    margin: 0 30px 0 0;
+
+    &:last-child {
+      border-bottom: 1px solid #e6e6e6;
+    }
+  }
+
+  & a {
+    color: $gray;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+    &:hover {
+      color: $blue;
+    }
+
+    &.active {
+      color: $blue;
+    }
+  }
+
+  &__social {
+    display: inline-block !important;
+    padding: 16px 8px;
+  }
+}

@@ -1,0 +1,16 @@
+.table {
+
+  &--apps {
+    margin-top: 50px;
+    
+    & thead th {
+      border-bottom: 0;
+      border-top: 0;
+    }
+    
+    & tbody td {
+      border-bottom: 0;
+      border-top: 0;
+    }
+  }
+}

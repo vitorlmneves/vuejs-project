@@ -1,0 +1,16 @@
+.b-table {
+
+  & i {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    &.fa-trash {
+      color: $red;
+    }
+
+    &.fa-pen {
+      color: $blue;
+    }
+  }
+  
+}

@@ -1,0 +1,25 @@
+.avatar {
+
+  &:not(:first-child) {
+    margin-left: -15px;
+  }
+
+  &:last-child {
+    margin-right: 10px;
+  }
+
+  &--round {
+    border: 2px solid $white;
+    border-radius: 50%;
+  }
+
+  &--medium {
+    height: 64px;
+    width: 64px;
+  }
+
+  &--small {
+    height: 32px;
+    width: 32px;
+  }
+}

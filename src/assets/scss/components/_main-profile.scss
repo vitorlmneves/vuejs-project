@@ -1,0 +1,101 @@
+.profile {
+  margin-bottom: 45px;
+
+  &__wrap {
+    margin-top: 30px;
+  }
+
+  &__item {
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 0px 20px 20px;
+    position: relative;
+    text-align: right;
+
+    &:hover {
+      & .profile__dropdown-list {
+        display: block;
+      }
+    }
+  }
+
+  &__dropdown-list {
+    background-color: $white;
+    box-shadow: $default-box-shadow;
+    color: $black;
+    display: none;
+    font-size: 1rem;
+    list-style: none;
+    margin: 0.125rem 0 0;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    text-align: center;
+    top: 95%;
+    width: 255px;
+    z-index: 9999;
+  }
+
+  &__dropdown-toggle {
+    color: $white;
+    text-decoration: none;
+  }
+
+  &__user {
+    &--img {
+      margin-top: 20px;
+      max-width: 50%;
+    }
+  }
+
+  &__role {
+    margin: 0.5rem auto;
+    text-align: center;
+    font-family: Roboto-Medium;
+    font-size: 17px;
+    color: #888;
+  }
+
+  &__left {
+    float: left;
+  }
+
+  &__right {
+    float: right;
+  }
+
+  &__left,
+  &__right {
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+
+  &__button {
+    background-color: $light-gray-bg;
+    border: 1px solid $light-gray;
+    color: $black;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-family: Roboto-Medium;
+    font-size: 17px;
+    color: #888;
+  }
+}
+
+.image_profile {
+  max-width: 7%;
+  border-radius: 50%;
+  border: 8px solid #0098ce;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: none;
+  color: #888;
+}
+
+.linkText {
+  margin-right: 10px;
+}

@@ -1,0 +1,43 @@
+.section {
+  /* display: flex;
+  justify-content: space-between;
+  width: 100%; */
+  /* padding-left: .5rem;
+  padding-right: .5rem; */
+
+  /* &__header {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  &__title {
+    color: $black;
+    font-weight: $font-weight-bold;
+    font-size: 2rem;
+  } */
+
+  &__title {
+    font-weight: $font-weight-thin;
+    font-size: 1.4rem;
+    padding-top: 15px;
+    padding: .5rem 1rem 0;
+  }
+
+  /* &__button {
+    background-color: $blue;
+    border-radius: $default-border-radius;
+    border: 1px solid $dark-blue;
+    color: $white;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    right: 0;
+    text-decoration: none;
+    top: 15px;
+
+    &:hover {
+      color: $blue;
+      background-color: $white;
+    }
+  } */
+}

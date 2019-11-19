@@ -1,0 +1,17 @@
+.player {
+  align-items: center;
+  background-color: $white;
+  bottom: 0;
+  box-shadow: 0 -5px 15px 5px rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  
+  &__wrapper {
+    display: flex;
+    width: 45rem;
+  }
+}

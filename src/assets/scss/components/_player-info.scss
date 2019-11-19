@@ -1,0 +1,18 @@
+.player-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+
+  &__wrapper {
+    flex: 1 1 0%;
+  }
+
+  &__music-title {
+    font-size: .875rem;
+  }
+
+  &__music-time {
+    font-size: .675rem;
+    font-weight: $font-weight-normal;
+  }
+}

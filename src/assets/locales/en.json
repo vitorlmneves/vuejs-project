@@ -1,0 +1,12 @@
+{
+  "login": {
+    "email": {
+      "title": "Email"
+    },
+    "error": "The Email or Password is incorrect!",
+    "password": {
+      "title": "Password"
+    },
+    "submit": "Login"
+  }
+}

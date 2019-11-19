@@ -1,0 +1,75 @@
+.configurations {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
+
+  & .card {
+    border: 0;
+    width: 100%;
+  }
+
+  & .col-auto {
+    flex: 0 0 16.666667%;
+    width: 16.666667%;
+  }
+
+  & .nav-item {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  & .nav-item a {
+    color:$gray;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  & .nav-item a.active {
+    background: $white;
+    color: $blue;
+  }
+
+  &__item {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin: 0 15px 45px;
+    position: relative;
+  }
+  
+  &__name {
+    background: $white;
+    bottom: 5px;
+    color: $black;
+    font-size: 1.1rem;
+    font-weight: $font-weight-bold;
+    padding: 10px;
+    position: absolute;
+    margin: 20px;
+    text-decoration: none;
+    width: calc(100% - 40px);
+  }
+
+  &__link {
+    background: linear-gradient(bottom, black, rgba(0, 0, 0, 0));
+    height: 100%;
+    left: 0;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  &__form-group {
+    margin-bottom: 50px;
+  }
+}
