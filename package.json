@@ -56,7 +56,7 @@
     "json-server": "0.14.2",
     "jsonwebtoken": "8.5.1",
     "lodash.times": "4.3.2",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "sass-loader": "7.1.0",
     "vue-cli-plugin-i18n": "0.6.0",
     "vue-cli-plugin-tailwind": "0.4.3",
